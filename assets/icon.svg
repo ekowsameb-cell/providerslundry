@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Providers laundry">
+  <defs>
+    <linearGradient id="lat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ae8dc"/><stop offset=".38" stop-color="#2cc6cf"/><stop offset=".7" stop-color="#12a3b3"/><stop offset="1" stop-color="#0b7f8c"/>
+    </linearGradient>
+    <linearGradient id="lad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fd0d4"/><stop offset="1" stop-color="#14a6b5"/></linearGradient>
+    <radialGradient id="lag"><stop offset="0" stop-color="#ffc21a" stop-opacity=".55"/><stop offset="1" stop-color="#ffc21a" stop-opacity="0"/></radialGradient>
+    <filter id="las" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0b2a4a" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#lat)"/>
+  <path filter="url(#las)" fill="#fff" d="M346 190H625A235 235 0 0 1 625 660H512V795A45 45 0 0 1 467 840H346A46 46 0 0 1 300 794V236A46 46 0 0 1 346 190Z"/>
+  <path fill="url(#lad)" d="M655 254C703 324 760 402 760 486A105 105 0 0 1 550 486C550 402 607 324 655 254Z"/>
+  <path d="M597 418C604 393 616 377 632 368" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="14" stroke-linecap="butt"/>
+  <circle cx="862" cy="196" r="120" fill="url(#lag)"/>
+  <path fill="#ffc21a" d="M862 92 L884 174 L966 196 L884 218 L862 300 L840 218 L758 196 L840 174 Z"/>
+  <path fill="#fff" d="M936 314 L945 347 L978 356 L945 365 L936 398 L927 365 L894 356 L927 347 Z"/>
+  <path fill="#fff" d="M222 774 L233 815 L274 826 L233 837 L222 878 L211 837 L170 826 L211 815 Z"/>
+</svg>

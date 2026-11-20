@@ -285,3 +285,15 @@ a.inline,.plans-note a,.small a,.head p a{color:var(--teal2);font-weight:600;tex
   .reveal{opacity:1;transform:none}
   .bubbles{display:none}
 }
+
+/* Brand lockup (Providers family logo) */
+.lockup{display:inline-flex;align-items:center;gap:11px}
+.lockup img{width:42px;height:42px;border-radius:11px;box-shadow:0 6px 18px -6px rgba(14,159,174,.6)}
+.lk-t b{display:block;font-family:Montserrat,var(--font);font-weight:900;font-size:1.32rem;line-height:1;letter-spacing:-.01em;color:#111a2e}
+.lk-t i{display:block;font-style:normal;font-family:Montserrat,var(--font);font-weight:700;font-size:.62rem;letter-spacing:.42em;color:#0b8f9c;margin-top:5px}
+.lockup.lg img{width:52px;height:52px;border-radius:13px}
+.lockup.lg .lk-t b{font-size:1.6rem}
+.lockup.on-dark .lk-t b{color:#fff}
+.lockup.on-dark .lk-t i{color:#7fdbe3}
+.foot-grid .lockup{margin-bottom:16px}
+@media (max-width:600px){.lockup img{width:36px;height:36px}.lk-t b{font-size:1.15rem}.lk-t i{font-size:.56rem}}
